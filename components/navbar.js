@@ -46,7 +46,7 @@ span{
 <nav>
 <span>Logo</span>
 <ul class="nav-links">
-    <li><a href="/"  >Home</a></li>
+    <li><a href="../index.html"  >Home</a></li>
     <li><a href="../about.html" >About</a></li>
     <li><a href="#" >Works</a></li>
     <li><a href="#" >Contact</a></li>
