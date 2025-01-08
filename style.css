@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.services{
+    width: 100%;
+    margin:4rem 0;
+    /* display: flex; */
+    /* flex-direction: co */
+}
+.services h1{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.servicesBox{
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+ gap: 1rem;
+ padding: 3rem;
+}

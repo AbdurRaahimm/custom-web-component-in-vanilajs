@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom Web component</title>
+</head>
+<body>
+    
+    <my-navber></my-navber>
+    <my-hero></my-hero>
+    <div class="services">
+        <h1>Services </h1>
+        <div class="servicesBox">
+            <my-services 
+            img="./images/servicesImg.avif" 
+            title="Web Development"
+            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."></my-services>
+            <my-services
+            img="./images/android.avif"
+            title="Android Development"
+            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."></my-services>
+            <my-services
+            img="./images/cyberSecurity.jpeg"
+            title="Cyber Security"
+            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."></my-services>
+            <my-services
+            img="./images/dataScience.jpeg"
+            title="Data Science"
+            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."></my-services>
+        </div>
+
+    </div>
+    <my-footer>
+        <span slot="footer" >Design by Abdur Rahim</span>
+    </my-footer>
+
+
+    <script type="module" >
+        import './index.js'
+        // import ServiceImg from './images/servicesImg.avif'
+    </script>
+</body>
+</html>
